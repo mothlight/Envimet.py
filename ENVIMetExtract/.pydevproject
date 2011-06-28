@@ -7,4 +7,7 @@
 <pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
 <path>/ENVIMetExtract/src</path>
 </pydev_pathproperty>
+<pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
+<path>/home/nice/python/gnuplot-py-1.8/build/lib/Gnuplot</path>
+</pydev_pathproperty>
 </pydev_project>
