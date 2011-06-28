@@ -73,7 +73,6 @@ variableStart = skipValues
 
 dataList = []
 
-#variableData=[]
 #for i in range(variableStart,long(numOfVariablesInFile)):
 for i in range(variableStart,variableStart+1):
     #print i
