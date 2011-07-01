@@ -51,6 +51,8 @@ print (dataList)
 
 print (dataList[0][3])
 
+## TODO - read all variables needed for energy balance in all files in the data directory and do calculations 
+
 #title = 'Plotting ' + str(variableToFind.replace('\r\n', '')) + ' at cut ' + str(cutType) + '=' + str(cutPoint)
 energyPlot = PlotEnergyPlot()
 
