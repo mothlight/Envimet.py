@@ -17,8 +17,7 @@ ediFileName=''
 fileTime=''
 
 class EDIFile:
-    """Represent a note in the notebook. Match against a
-    string in searches and store tags for each note."""
+    """Class to read and access an EDI file."""
 
     def __init__(self, ediFile):
         '''initialize ediFile class'''

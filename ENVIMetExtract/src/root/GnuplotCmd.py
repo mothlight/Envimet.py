@@ -8,10 +8,10 @@ from sys import stdout, stderr
 from os import linesep as nl
 
 class GnuplotCmd:
-    """Gnuplot command"""
+    """Gnuplot command, pass a list of commands and a data list"""
     
     def __init__(self):
-        '''initialize ediFile class'''
+        '''initialize GnuplotCmd class'''
         
 
     def gnuplot_ExecuteCommands(self, commands, data):

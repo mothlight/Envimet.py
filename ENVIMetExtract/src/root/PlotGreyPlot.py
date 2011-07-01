@@ -10,11 +10,11 @@ import Gnuplot, Gnuplot.funcutils
 
 
 class PlotGreyPlot:
-    """Plot grey plot."""
+    """Plot grey plot. Call with dataset to plot a 2d grey scale plot."""
 
     def __init__(self):
-        '''initialize ediFile class'''
-        #self.edtFileName = edtFileName
+        '''initialize PlotGreyPlot class'''
+        
 
         
     def plot(self, dataList, title):

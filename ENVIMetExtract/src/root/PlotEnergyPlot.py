@@ -14,10 +14,10 @@ from GnuplotCmd import GnuplotCmd
 from sys import stdout, stderr
 
 class PlotEnergyPlot:
-    """Plot grey plot."""
+    """Plot grey plot. call with a data set to plot a 2d energy balance plot"""
 
     def __init__(self):
-        '''initialize ediFile class'''
+        '''initialize PlotEnergyPlot class'''
         
 
         

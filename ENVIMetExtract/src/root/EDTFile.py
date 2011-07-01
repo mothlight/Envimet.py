@@ -24,11 +24,11 @@ class EDTFile:
     """Read EDT file."""
 
     def __init__(self, edtFileName):
-        '''initialize ediFile class'''
+        '''initialize EDTFile class'''
         self.edtFileName = edtFileName
 
     def readDataFile(self, skipValues, cutType, cutPoint, numOfXGrids, numOfYGrids, numOfZGrids, numOfVariablesInFile, gridSpacingX, gridSpacingY, gridSpacingZ):
-        '''initialize ediFile class'''
+        '''initialize EDTFile class, read file and store as member variable'''
         startingX = 2.5
         startingY = 2.5
         startingZ = 0.0
@@ -50,7 +50,7 @@ class EDTFile:
         edtFile.close()
         
     def readOneVariable(self, skipValues, cutType, cutPoint, numOfXGrids, numOfYGrids, numOfZGrids, numOfVariablesInFile, gridSpacingX, gridSpacingY, gridSpacingZ):
-        """read file and return values"""
+        """read file and return values for a 2d cut for given variable."""
         
         startingX = 2.5
         startingY = 2.5
@@ -113,7 +113,7 @@ class EDTFile:
                 return i
             
     def readOneVariableAtXYZ(self, skipValues, cutType, cutPoint, numOfXGrids, numOfYGrids, numOfZGrids, numOfVariablesInFile, gridSpacingX, gridSpacingY, gridSpacingZ, xPoint, yPoint, zPoint):
-        """read file and return values"""
+        """return value for single x,y,z point for a variable. File should have already been initialized by readDataFile() """
         
         startingX = 2.5
         startingY = 2.5
