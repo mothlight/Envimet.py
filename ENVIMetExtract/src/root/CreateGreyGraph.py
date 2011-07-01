@@ -15,7 +15,7 @@ import Numeric
 Z_CUT='Z'
 Y_CUT='Y'
 X_CUT='X'
-ediFile = file(r"/mnt/Samsung2TB/EnvimetRuns-5days/Monash/MonashCampusValidationNW/output/atmosphere/MonashCampusValidationNW_AT_00.00.00 23.03.2011.EDI")
+#ediFile = file(r"/mnt/Samsung2TB/EnvimetRuns-5days/Monash/MonashCampusValidationNW/output/atmosphere/MonashCampusValidationNW_AT_00.00.00 23.03.2011.EDI")
 variableToFind = 'Pot. Temperature (K)'
 #variableToFind = 'Wind Speed (m/s)'
 #variableToFind = 'Spec. Humidity (g/kg)'
